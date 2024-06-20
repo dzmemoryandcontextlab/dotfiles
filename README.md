@@ -21,6 +21,8 @@ cd ~/workspace/dotfiles
 ./install
 ```
 
+Note, that you're likely to be asked for your password for various parts of these install scripts. 
+
 ### Manual steps
 
 Once the above script is complete, there are some one-time steps that need to be done:
@@ -47,4 +49,4 @@ Read the public key:
 cat ~/.ssh/id_ed25519.pub
 ```
 
-Give this value to HDZ (e.g. over email, slack, etc) so she can add it to the GitHub organization. It is not secret so don't worry about sharing it.
+Give this value to HDZ (e.g. over email, slack, etc) so she can create a bot user for that computer and add it to the GitHub organization. It is not secret so don't worry about sharing it.
