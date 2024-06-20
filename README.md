@@ -13,9 +13,10 @@ Once Homebrew is installed successfully, in Terminal, it will suggest that you r
 Once XCode is installed and the license is accepted, run the following (this is written as a shell script that can be run in a single go, or you could also run line-by-line in Terminal):
 
 ```sh
+
 brew install git
 mkdir -p ~/workspace
-git clone https://github.com/dzmemoryandcontextlab/dotfiles ~/workspace/
+git clone https://github.com/dzmemoryandcontextlab/dotfiles ~/workspace/dotfiles
 cd ~/workspace/dotfiles
 ./install
 ```
