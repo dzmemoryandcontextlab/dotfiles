@@ -6,7 +6,9 @@ Dotfiles for the Dimsdale-Zucker Memory and Context Lab.
 
 ## OSX
 
-Install Homebrew. Follow instructions [here](https://brew.sh/). During this installation, you will likely be forced to install XCode and accept the license - do this manually when prompted.
+Install Homebrew. Follow instructions [here](https://brew.sh/). During this installation, you will likely be forced to install XCode and accept the license - do this manually (if)/when prompted. 
+
+Once Homebrew is installed successfully, in Terminal, it will suggest that you run two lines of code to add Homebrew to the $PATH. Follow these instructions before continuing on (you will not see any output/success of this command, but it's technically re-setting values).
 
 Once XCode is installed and the license is accepted, run the following (this is written as a shell script that can be run in a single go, or you could also run line-by-line in Terminal):
 
