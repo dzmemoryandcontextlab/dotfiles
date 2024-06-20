@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#
+# Configures git.
+
+set -euf -o pipefail
+
+my_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+echo "  Installing global git config."
+rm -rf "${HOME}/.gitconfig"
+cp "${my_dir}/.gitconfig.example" "${HOME}/.gitconfig"
