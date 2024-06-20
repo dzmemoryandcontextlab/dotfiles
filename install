@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#
+# Run all dotfiles installers.
+
+set -euf -o pipefail
+
+# sets an absolute path as the variable "my_dir" - this is set relative to where the file is located so is helpful e.g., if running from a different location
+my_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+"${my_dir}/homebrew/install"
+
+echo "All installation scripts completed successfully"
