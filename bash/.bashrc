@@ -18,3 +18,5 @@ export HISTFILE=~/.bash_eternal_history
 # http://superuser.com/questions/20900/bash-history-loss
 PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
 
+eval "$(/opt/homebrew/bin/brew shellenv)"
+eval "$(starship init bash)"
