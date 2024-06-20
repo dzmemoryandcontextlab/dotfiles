@@ -17,6 +17,7 @@ brew "wget"
 
 cask "anaconda"
 cask "flycut"
+cask "font-hack-nerd-font"
 cask "google-chrome"
 cask "iterm2"
 cask "miniconda"
