@@ -12,5 +12,6 @@ my_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 "${my_dir}/git/install"
 "${my_dir}/ssh/install"
 "${my_dir}/starship/install"
+"${my_dir}/tmux/install"
 
 echo "All installation scripts completed successfully"
