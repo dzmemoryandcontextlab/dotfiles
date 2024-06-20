@@ -20,3 +20,4 @@ PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(starship init bash)"
+export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
