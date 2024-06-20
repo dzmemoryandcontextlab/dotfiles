@@ -17,3 +17,31 @@ git clone https://github.com/dzmemoryandcontextlab/dotfiles ~/workspace/
 cd ~/workspace/dotfiles
 ./install
 ```
+
+### Manual steps
+
+Once the above script is complete, there are some one-time steps that need to be done:
+
+#### iTerm terminal
+
+* Open iterm2
+* Go to preferences (`⌘` + `,`)
+* Go to Profiles
+* Select the default profile (likely the only one and hence already selected)
+* Under **command** select `Custom Shell` in the drop-down and type `/opt/homebrew/bin/bash`
+
+#### Setting up a per-machine ssh key
+
+Run the following command to create the SSH keypair:
+
+```sh
+ssh-keygen -t ed25519 -C "$(hostname)" -N '' -f ~/.ssh/id_ed25519
+```
+
+Read the public key:
+
+```
+cat ~/.ssh/id_ed25519.pub
+```
+
+Give this value to HDZ (e.g. over email, slack, etc) so she can add it to the GitHub organization. It is not secret so don't worry about sharing it.
