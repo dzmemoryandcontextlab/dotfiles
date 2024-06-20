@@ -8,5 +8,6 @@ set -euf -o pipefail
 my_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 "${my_dir}/homebrew/install"
+"${my_dir}/starship/install"
 
 echo "All installation scripts completed successfully"
