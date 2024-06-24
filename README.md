@@ -27,6 +27,10 @@ Note, that you're likely to be asked for your password for various parts of thes
 
 Once the above script is complete, there are some one-time steps that need to be done:
 
+#### For any shared computers (e.g., testing computers)
+
+* In Chrome, turn off Google Password Manager
+
 #### iTerm terminal
 
 * Open iterm2
