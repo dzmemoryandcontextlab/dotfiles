@@ -30,6 +30,9 @@ Once the above script is complete, there are some one-time steps that need to be
 #### For any shared computers (e.g., testing computers)
 
 * In Chrome, turn off Google Password Manager
+* Disable automatic software updates. [Here](https://support.examsoft.com/hc/en-us/articles/11145629796877-How-to-Disable-Automatic-Operating-System-Updates) is a recent set of instructions about how to do this on a Mac.
+* Disable notifications (so that they don't interrupt participants). 
+	* Navigate to System Preferences, Notifications. For each application, manually ensure "Allow Notifications" is turned off
 
 #### iTerm terminal
 
@@ -38,6 +41,10 @@ Once the above script is complete, there are some one-time steps that need to be
 * Go to Profiles
 * Select the default profile (likely the only one and hence already selected)
 * Under **command** select `Custom Shell` in the drop-down and type `/opt/homebrew/bin/bash`
+* If you want to have a dark background with light text:
+	* Go to Appearance, General, Theme, and select `dark mode`
+	* You will also need to go to Profiles, Default, and uncheck `colors`
+* To increase the font size and setup fonts so that icons redner properly, go to Profiles, Text, Font. Select `Hack Nerd Font Mono` and increase the text size (Halle likes 14, but this is personal preference)
 
 #### Setting up a per-machine ssh key
 
