@@ -36,3 +36,5 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+export PATH="/Applications/PyCharm.app/Contents/MacOS:$PATH"
