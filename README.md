@@ -60,4 +60,6 @@ Read the public key:
 cat ~/.ssh/id_ed25519.pub
 ```
 
-Give this value to HDZ (e.g. over email, slack, etc) so she can create a bot user for that computer and add it to the GitHub organization. It is not secret so don't worry about sharing it.
+If you're setting up a lab computer, then give this value to HDZ (e.g. over email, slack, etc) so she can add it to the GitHub organization. It is not secret so don't worry about sharing it.
+
+If you're using dotfiles to setup a personal workstation in lab, then you should add this SSH key to your own GitHub account.
