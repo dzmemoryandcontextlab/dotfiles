@@ -36,6 +36,7 @@ Once the above script is complete, there are some one-time steps that need to be
 
 #### iTerm terminal
 
+* dotfiles will setup iTerm to use the `bash` shell. If you prefer the current Mac default of zsh, you'll want to continue using `Terminal`
 * Open iterm2
 * Go to preferences (`⌘` + `,`)
 * Go to Profiles
