@@ -40,3 +40,5 @@ unset __conda_setup
 export PATH="/Applications/PyCharm.app/Contents/MacOS:$PATH"
 
 alias gst='git status'
+
+alias ll="ls -al"
