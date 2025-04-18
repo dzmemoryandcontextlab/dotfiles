@@ -42,3 +42,27 @@ export PATH="/Applications/PyCharm.app/Contents/MacOS:$PATH"
 alias gst='git status'
 
 alias ll="ls -al"
+
+eval "$(/opt/homebrew/bin/brew shellenv bash)"
+export PATH=${PATH}:/opt/homebrew/opt/python/libexec/bin
+
+eval "$(/opt/homebrew/bin/brew shellenv bash)"
+export PATH=${PATH}:/opt/homebrew/opt/python/libexec/bin
+
+# -------------------------------------------------------
+# for AFNI: auto-inserted by init_user_dotfiles.py
+
+# add AFNI abin to PATH
+export PATH=${PATH}:/Users/halledz/abin
+
+# set up tab completion for AFNI programs
+if [ -f $HOME/.afni/help/all_progs.COMP.bash ]
+then
+   source $HOME/.afni/help/all_progs.COMP.bash
+fi
+# -------------------------------------------------------
+
+
+eval "$(/opt/homebrew/bin/brew shellenv bash)"
+export PATH=${PATH}:/opt/homebrew/opt/python/libexec/bin
+export R_LIBS=/Users/halledz/sw/R-4.3.1
